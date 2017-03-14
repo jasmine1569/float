@@ -1,0 +1,319 @@
+.container {
+  width: 1000px;
+  height: 800px;
+  background-color: #767676;
+  margin: 0px auto; }
+  .container .header {
+    width: 1000px;
+    height: 250px;
+    background-color: #d0021b; }
+    .container .header .row1 {
+      width: 1000px;
+      height: 200px;
+      background-color: #f7a91c; }
+      .container .header .row1__blue {
+        width: 400px;
+        height: 200px;
+        background-color: #4a90e2;
+        float: left; }
+        .container .header .row1__blue__grey {
+          width: 50px;
+          height: 50px;
+          background-color: #4a4a4a;
+          float: left;
+          margin-left: 53px;
+          margin-top: 80px; }
+        .container .header .row1__blue__grey2 {
+          width: 85px;
+          height: 50px;
+          background-color: #4a4a4a;
+          float: left;
+          margin-left: 53px;
+          margin-top: 80px; }
+      .container .header .row1__yellow {
+        width: 200px;
+        height: 200px;
+        background-color: #f8e71c;
+        float: left; }
+        .container .header .row1__yellow__gray3 {
+          width: 50px;
+          height: 50px;
+          background-color: #4a4a4a;
+          float: left; }
+        .container .header .row1__yellow__gray4 {
+          width: 50px;
+          height: 50px;
+          background-color: #4a4a4a;
+          float: left;
+          margin-top: 150px;
+          margin-left: 100px; }
+      .container .header .row1__lightgrey {
+        width: 200px;
+        height: 200px;
+        background-color: #d8d8d8;
+        float: left; }
+        .container .header .row1__lightgrey__midgr {
+          width: 50px;
+          height: 50px;
+          margin-top: 77px;
+          margin-left: 75px;
+          background-color: #4a4a4a; }
+      .container .header .row1__multi {
+        width: 200px;
+        height: 200px;
+        float: left;
+        background-color: #7ed321; }
+        .container .header .row1__multi__red {
+          width: 100px;
+          height: 200px;
+          background-color: #d0021b;
+          float: left; }
+        .container .header .row1__multi__cyan {
+          width: 100px;
+          height: 100px;
+          background-color: #50e3c2;
+          float: left; }
+        .container .header .row1__multi__darkgre {
+          width: 100px;
+          height: 100px;
+          background-color: #4a4a4a;
+          float: left; }
+    .container .header .row2 {
+      width: 1000px;
+      height: 80px;
+      background-color: #ffffff; }
+      .container .header .row2__multi2 {
+        width: 600px;
+        height: 100px;
+        background-color: #7ed321;
+        float: left; }
+        .container .header .row2__multi2__line {
+          width: 600px;
+          height: 50px;
+          background-color: #f8e71c;
+          float: left; }
+          .container .header .row2__multi2__line__red1 {
+            width: 50px;
+            height: 50px;
+            float: left;
+            background-color: #d0021b; }
+          .container .header .row2__multi2__line__red2 {
+            width: 50px;
+            height: 50px;
+            float: left;
+            background-color: #d0021b;
+            margin-left: 50px; }
+          .container .header .row2__multi2__line__purple {
+            width: 400px;
+            height: 50px;
+            background-color: #bd10e0;
+            float: left;
+            margin-left: 50px; }
+        .container .header .row2__multi2__line2 {
+          width: 600px;
+          height: 50px;
+          background-color: #417505;
+          float: left; }
+          .container .header .row2__multi2__line2__orange {
+            width: 400px;
+            height: 50px;
+            background-color: #f5a623; }
+      .container .header .row2__purple {
+        width: 400px;
+        height: 100px;
+        background-color: #9013fe;
+        float: left; }
+  .container .main {
+    width: 1000px;
+    height: 430px;
+    background-color: #000000; }
+    .container .main__block1 {
+      width: 500px;
+      height: 400px;
+      background-color: #f8e71c;
+      float: left; }
+      .container .main__block1__box1 {
+        width: 200px;
+        height: 200px;
+        background-color: #4a4a4a;
+        float: left; }
+      .container .main__block1__box2 {
+        width: 200px;
+        height: 200px;
+        background-color: #7ed321;
+        clear: left;
+        margin-top: -40px; }
+        .container .main__block1__box2__row1 {
+          width: 200px;
+          height: 100px;
+          background-color: #417505; }
+          .container .main__block1__box2__row1__orange {
+            width: 100px;
+            height: 100px;
+            background-color: #f8e71c;
+            float: left; }
+          .container .main__block1__box2__row1__lightorange {
+            width: 100px;
+            height: 100px;
+            background-color: #f5a623;
+            float: left; }
+        .container .main__block1__box2__row2 {
+          width: 200px;
+          height: 100px;
+          background-color: #50e3c2; }
+          .container .main__block1__box2__row2__orange {
+            width: 100px;
+            height: 100px;
+            background-color: #f5a623;
+            float: left; }
+          .container .main__block1__box2__row2__lightgrey {
+            width: 100px;
+            height: 100px;
+            background-color: #d8d8d8;
+            float: left; }
+      .container .main__block1__box3 {
+        width: 300px;
+        height: 400px;
+        background-color: #d0021b;
+        float: left;
+        margin-top: -400px;
+        margin-left: 200px; }
+        .container .main__block1__box3__white1 {
+          width: 50px;
+          height: 50px;
+          float: left;
+          background-color: #fefefe; }
+        .container .main__block1__box3__white2 {
+          width: 50px;
+          height: 50px;
+          float: left;
+          background-color: #fefefe;
+          margin-left: 200px; }
+        .container .main__block1__box3__white3 {
+          width: 50px;
+          height: 50px;
+          clear: left;
+          background-color: #fefefe;
+          margin-top: 350px; }
+        .container .main__block1__box3__white4 {
+          width: 50px;
+          height: 50px;
+          clear: left;
+          background-color: #fefefe;
+          margin-left: 250px;
+          margin-top: -50px; }
+        .container .main__block1__box3__white5 {
+          width: 100px;
+          height: 100px;
+          float: left;
+          background-color: #fefefe;
+          margin-left: 100px;
+          margin-top: -250px; }
+    .container .main__block2 {
+      width: 500px;
+      height: 400px;
+      background-color: #bd10e0;
+      float: left; }
+      .container .main__block2__box1 {
+        width: 300px;
+        height: 200px;
+        float: left;
+        background-color: #4a4a4a; }
+        .container .main__block2__box1__row1 {
+          width: 300px;
+          height: 50px;
+          background-color: #fefefe; }
+          .container .main__block2__box1__row1__lightgreen {
+            width: 50px;
+            height: 50px;
+            background-color: #7ed321;
+            float: left; }
+          .container .main__block2__box1__row1__lightgreen2 {
+            width: 50px;
+            height: 50px;
+            background-color: #7ed321;
+            float: left;
+            margin-left: 50px; }
+          .container .main__block2__box1__row1__lightgreen3 {
+            width: 50px;
+            height: 50px;
+            background-color: #7ed321;
+            float: left;
+            margin-left: 50px; }
+        .container .main__block2__box1__row2 {
+          width: 300px;
+          height: 50px;
+          background-color: #d8d8d8;
+          float: left; }
+        .container .main__block2__box1__row3 {
+          width: 300px;
+          height: 50px;
+          background-color: #417505;
+          float: left; }
+        .container .main__block2__box1__row4 {
+          width: 300px;
+          height: 50px;
+          background-color: #d8d8d8;
+          float: left; }
+      .container .main__block2__box2 {
+        width: 200px;
+        height: 200px;
+        background-color: #4a4a4a;
+        float: left; }
+      .container .main__block2__box3 {
+        width: 300px;
+        height: 200px;
+        background-color: #50e3c2;
+        float: left; }
+      .container .main__block2__box4 {
+        width: 200px;
+        height: 200px;
+        background-color: #d8d8d8;
+        float: left; }
+  .container .footer {
+    width: 1000px;
+    height: 120px;
+    background-color: #d0021b; }
+    .container .footer__block1 {
+      width: 400px;
+      height: 100px;
+      background-color: #9013fe;
+      float: left; }
+    .container .footer__block2 {
+      width: 600px;
+      height: 100px;
+      background-color: #7ed321;
+      float: left; }
+      .container .footer__block2__row1 {
+        width: 600px;
+        height: 50px;
+        background-color: #f8e71c;
+        float: left; }
+        .container .footer__block2__row1__purple {
+          width: 400px;
+          height: 50px;
+          float: left;
+          background-color: #bd10e0; }
+        .container .footer__block2__row1__red1 {
+          width: 50px;
+          height: 50px;
+          float: left;
+          background-color: #d0021b;
+          margin-left: 50px; }
+        .container .footer__block2__row1__red2 {
+          width: 50px;
+          height: 50px;
+          background-color: #d0021b;
+          float: left;
+          margin-left: 50px; }
+      .container .footer__block2__row2 {
+        width: 600px;
+        height: 50px;
+        background-color: #f5a623;
+        float: left; }
+        .container .footer__block2__row2__orange {
+          width: 200px;
+          height: 50px;
+          background-color: #417505; }
+
+/*# sourceMappingURL=style.css.map */

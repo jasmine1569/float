@@ -1,0 +1,484 @@
+$container-cover: #fafafa;
+$header-color: #000000;
+$main-color: #767676;
+$footer-color: #556a56;
+$primary-color: #f7a91c;
+$blue-color: #4a90e2;
+$grey-color: #4a4a4a;
+$yellow-color: #f8e71c;
+$red-color: #d0021b;
+$lightred-color: #d00d2d;
+$cyan-color: #50e3c2;
+$purple-color: #bd10e0;
+$darkpurple-color: #9013fe;
+$darkgreen-color: #417505;
+$lightgreen-color: #7ed321;
+$white-color: #fefefe;
+$orange-color: #f5a623;
+$light-grey: #d8d8d8;
+
+
+.container{
+	width: 1000px;
+	height: 800px;
+	background-color: $main-color;
+	margin: 0px auto;
+
+		.header{
+			width: 1000px;
+			height: 250px;
+			background-color: $red-color;
+
+			.row1{
+				width: 1000px;
+				height: 200px;
+				background-color: $primary-color;
+
+				&__blue{
+					width: 400px;
+					height: 200px;
+					background-color: $blue-color;
+					float: left;
+
+					&__grey{
+						width: 50px;
+						height: 50px;
+						background-color: $grey-color;
+						float: left;
+						margin-left: 53px;
+						margin-top: 80px;
+					}
+
+					&__grey2{
+						width: 85px;
+						height: 50px;
+						background-color: $grey-color;
+						float: left;
+						margin-left: 53px;
+						margin-top: 80px;
+					}
+
+				}
+
+				&__yellow{
+					width: 200px;
+					height: 200px;
+					background-color: $yellow-color;
+					float: left;
+
+						&__gray3{
+							width: 50px;
+							height: 50px;
+							background-color: $grey-color;
+							float: left;
+						}
+
+						&__gray4{
+							width: 50px;
+							height: 50px;
+							background-color: $grey-color;
+							float: left;
+							margin-top: 150px;
+							margin-left: 100px;
+						}
+
+				}
+
+				&__lightgrey{
+					width: 200px;
+					height: 200px;
+					background-color: $light-grey;
+					float: left;
+
+						&__midgr{
+							width: 50px;
+							height: 50px;
+							margin-top: 77px;
+							margin-left: 75px;
+							background-color: $grey-color;
+						}
+				}
+
+				&__multi{
+					width: 200px;
+					height: 200px;
+					float: left;
+					background-color: $lightgreen-color;
+
+						&__red{
+							width: 100px;
+							height: 200px;
+							background-color: $red-color;
+							float: left;
+						}
+
+						&__cyan{
+							width: 100px;
+							height: 100px;
+							background-color: $cyan-color;
+							float: left;
+						}
+
+						&__darkgre{
+							width: 100px;
+							height: 100px;
+							background-color:$grey-color;
+							float: left;
+						}
+				}
+
+
+
+
+
+			}
+
+			.row2{
+				width: 1000px;
+				height: 80px;
+				background-color: #ffffff;
+
+					&__multi2{
+						width: 600px;
+						height: 100px;
+						background-color: $lightgreen-color;
+						float: left;
+
+							&__line{
+								width: 600px;
+								height: 50px;
+								background-color: $yellow-color;
+								float: left;
+
+									&__red1{
+										width:50px;
+										height: 50px;
+										float: left;
+										background-color: $red-color;
+									}
+
+									&__red2{
+										width:50px;
+										height: 50px;
+										float: left;
+										background-color: $red-color;
+										margin-left: 50px;
+									}
+
+									&__purple{
+										width: 400px;
+										height: 50px;
+										background-color: $purple-color;
+										float: left;
+										margin-left:50px;
+									}
+
+
+							}
+
+							&__line2{
+								width: 600px;
+								height: 50px;
+								background-color: $darkgreen-color;
+								float: left;
+
+									&__orange{
+										width: 400px;
+										height: 50px;
+										background-color: $orange-color;
+									}
+
+
+							}
+
+					}
+
+					&__purple{
+						width: 400px;
+						height: 100px;
+						background-color: $darkpurple-color;
+						float: left;
+					}
+			}
+		}
+
+		.main{
+			width: 1000px;
+			height: 430px;
+			background-color: $header-color;
+
+			&__block1{
+					width: 500px;
+					height: 400px;
+					background-color: $yellow-color;
+					float: left;
+
+						&__box1{
+							width: 200px;
+							height: 200px;
+							background-color: $grey-color;
+							float: left;
+						}
+
+						&__box2{
+							width: 200px;
+							height: 200px;
+							background-color: $lightgreen-color;
+							clear: left;
+							margin-top: -40px;
+
+								&__row1{
+									width: 200px;
+									height: 100px;
+									background-color: $darkgreen-color;
+
+										&__orange{
+											width: 100px;
+											height: 100px;
+											background-color: $yellow-color;
+											float: left;
+										}
+
+										&__lightorange{
+											width: 100px;
+											height: 100px;
+											background-color: $orange-color;
+											float: left;
+										}
+								}
+
+								&__row2{
+									width: 200px;
+									height: 100px;
+									background-color: $cyan-color;
+
+										&__orange{
+											width: 100px;
+											height: 100px;
+											background-color: $orange-color;
+											float: left;
+										}
+
+										&__lightgrey{
+											width: 100px;
+											height: 100px;
+											background-color: $light-grey;
+											float: left;
+										}
+
+								}
+						}
+
+
+						&__box3{
+							width: 300px;
+							height: 400px;
+							background-color: $red-color;
+							float: left;
+							margin-top: -400px;
+							margin-left: 200px;
+
+								&__white1{
+									width: 50px;
+									height: 50px;
+									float: left;
+									background-color: $white-color;
+								}
+
+								&__white2{
+									width: 50px;
+									height: 50px;
+									float: left;
+									background-color: $white-color;
+									margin-left: 200px;
+								}
+
+								&__white3{
+									width: 50px;
+									height: 50px;
+									clear: left;
+									background-color: $white-color;
+									margin-top: 350px;
+								}
+
+								&__white4{
+									width: 50px;
+									height: 50px;
+									clear: left;
+									background-color: $white-color;
+									margin-left: 250px;
+									margin-top: -50px;
+								}
+
+								&__white5{
+									width: 100px;
+									height: 100px;
+									float: left;
+									background-color: $white-color;
+									margin-left: 100px;
+									margin-top: -250px;
+								}
+						}
+
+
+
+
+
+				}
+
+				&__block2{
+					width: 500px;
+					height: 400px;
+					background-color: $purple-color;
+					float: left;
+
+						&__box1{
+							width: 300px;
+							height: 200px;
+							float: left;
+							background-color: $grey-color;
+
+								&__row1{
+									width: 300px;
+									height: 50px;
+									background-color: $white-color;
+
+										&__lightgreen{
+											width: 50px;
+											height: 50px;
+											background-color: $lightgreen-color;
+											float: left;
+										}
+
+										&__lightgreen2{
+											width: 50px;
+											height: 50px;
+											background-color: $lightgreen-color;
+											float: left;
+											margin-left: 50px;
+										}
+
+										&__lightgreen3{
+											width: 50px;
+											height: 50px;
+											background-color: $lightgreen-color;
+											float: left;
+											margin-left: 50px;
+										}
+
+
+								}
+
+								&__row2{
+									width: 300px;
+									height: 50px;
+									background-color: $light-grey;
+									float: left;
+								}
+
+								&__row3{
+									width: 300px;
+									height: 50px;
+									background-color: $darkgreen-color;
+									float: left;
+								}
+
+								&__row4{
+									width: 300px;
+									height: 50px;
+									background-color: $light-grey;
+									float: left;
+								}
+						}
+
+						&__box2{
+							width: 200px;
+							height: 200px;
+							background-color: $grey-color;
+							float: left;
+						}
+
+						&__box3{
+							width: 300px;
+							height: 200px;
+							background-color: $cyan-color;
+							float: left;
+						}
+
+						&__box4{
+							width: 200px;
+							height: 200px;
+							background-color: $light-grey;
+							float: left;
+						}
+				}
+
+		}
+
+		.footer{
+			width: 1000px;
+			height: 120px;
+			background-color: $red-color;
+
+				&__block1{
+					width: 400px;
+					height: 100px;
+					background-color: $darkpurple-color;
+					float: left;
+				}
+
+				&__block2{
+						width: 600px;
+						height: 100px;
+						background-color: $lightgreen-color;
+						float: left;
+
+							&__row1{
+								width: 600px;
+								height: 50px;
+								background-color: $yellow-color;
+								float: left;
+
+									&__purple{
+										width:400px;
+										height: 50px;
+										float: left;
+										background-color: $purple-color;
+									}
+
+									&__red1{
+										width:50px;
+										height: 50px;
+										float: left;
+										background-color: $red-color;
+										margin-left: 50px;
+									}
+
+									&__red2{
+										width: 50px;
+										height: 50px;
+										background-color: $red-color;
+										float: left;
+										margin-left: 50px;
+
+									}
+							}
+
+							&__row2{
+								width: 600px;
+								height: 50px;
+								background-color: $orange-color;
+								float: left;
+
+									&__orange{
+										width: 200px;
+										height: 50px;
+										background-color: $darkgreen-color;
+									}
+
+
+							}
+				}
+
+		}
+}
